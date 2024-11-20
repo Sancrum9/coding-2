@@ -9,4 +9,13 @@ function exampleFunction() {
     console.log("step 3.");
 }
 
-exampleFunction()
+exampleFunction();
+
+let accountbalance=100
+
+function deposite(x){
+    console.log("money has been added succesfully.")
+    console.log(accountbalance + x)
+}
+
+deposite()
