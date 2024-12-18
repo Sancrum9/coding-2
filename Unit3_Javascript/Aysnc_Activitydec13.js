@@ -19,19 +19,19 @@
 //20 an up should pay $15.00
 //65 and up should pay 5.00
 
-function Prices(age){
-    if (age <= 10){
-        console.log( "Price will be 5$");
-    } if (age >= 16){
-        console.log( "Price will be 10$");
-    } if (age >= 20) {
-        console.log( "Price will be 15$");
-    }
-    if (age >= 65){
-        console.log( "Price will be 5$");
-}
-}
-Prices(100)
+//function Prices(age){
+//    if (age <= 10){
+//        console.log( "Price will be 5$");
+//    } if (age >= 16){
+//        console.log( "Price will be 10$");
+//    } if (age >= 20) {
+//        console.log( "Price will be 15$");
+ //   }
+//    if (age >= 65){
+//        console.log( "Price will be 5$");
+//}
+//}
+//Prices(100)
 
 //3.You have been hired by target to assist them with their store member discount software. The would like to make it so that shoppers who 
 // have a specific membership tier can save a certain amount of money on the products they buy. provided below are the memberships and the discount amount they should recieve:
@@ -42,3 +42,32 @@ Prices(100)
 //  and should return a message telling the user what the final price of the item is and how much they saved.
 
 //For example: congratulations superShopper, you saved $10.00 on this TV. Your final item price is $90.00.
+function discounts(membership, itemPrice){
+    console.log("Testing Function works");
+    if(membership === "Supershopper" ){
+        console.log("You are a SuperShopper. Here is your 10% discount");
+
+        var discountAmmount = itemPrice *.10;
+        console.log(discountAmmount)
+        var total = itemPrice - discountAmmount;
+        console.log(total);
+    }
+     else if(membership === "Megashopper" ){
+        console.log("You are a MegaShopper. Here is your 15% discount");
+        var discountAmmount = itemPrice *.15;
+        console.log(discountAmmount)
+        var total = itemPrice - discountAmmount;
+        console.log(total);
+    }
+     else if(membership === "Ultrashopper" ){
+        console.log("You are a UltraShopper. Here is your 20% discount");
+        var discountAmmount = itemPrice *.20;
+        console.log(discountAmmount)
+        var total = itemPrice - discountAmmount;
+        console.log(total);
+    }
+    else {
+        console.log("Error. soory this memebership no loger exist")
+    }
+}
+discounts("Supershopper" , 100)
