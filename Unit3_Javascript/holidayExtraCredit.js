@@ -18,7 +18,7 @@
 // ex. if a user passes in 12/21/2024, the program should return- on saturday dec. 21, I'm going to chill.
 //- ex. if a user passes in 12/31/2024, the program should return- on tuesday dec. 31, I'm going to a new years party.
 //- ex. if a user passes in 1/7/2024, the program should return- on monday Jan.1, I'm returning back to school.
-function discounts(calendar){
+function Days(calendar){
     console.log("Welcome to you calendar");
     if(calendar === 12/21/24){
         console.log("Little brothers birthday");
@@ -41,4 +41,4 @@ function discounts(calendar){
         console.log("You have nothing planned for today")
     }
 }
-discounts(12/31/24)
+Days(12/31/24)
