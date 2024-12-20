@@ -75,7 +75,11 @@ str="Comparison"
 //- If a user makes between 103001.00 and 198000.00, they will be taxed 23%, plus and additional 3% for the state. 
 
 //Your function should return how much money the person owes in taxes based on the amount of money they provided. 
-
+function incomeTax(income){
+    if(income <= 12000.00)
+        console.log("You will be taxed 10%")
+    else if(income ) 
+}
 //10. You have applied to several colleges in the state of PA and as your final project, you must create a function
 //   that will inform you on whether you will be admitted into the school based on the schools' reccomendation letter
 //   criteria. Your function should take in the name of the school along with whether it is TRUE or FALSE that you recieved 
