@@ -13,4 +13,19 @@ function educationRank(gradeLevel){
         console.log("Err. Please check your code.")
     }
 }
+
 educationRank(6)
+
+
+
+var GroceryList=["Name",10,true]
+
+var student1 = ["Will",90,"Football"];
+var student2 = ["Jaydin",92,"Basketball"]
+var student3 = ["marquese",80]
+var CodingClassPeriod = [student1, student2, student3, "haleem", "etc.."]
+
+console.log(CodingClass6Period);
+
+
+
